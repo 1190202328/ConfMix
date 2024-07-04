@@ -1,51 +1,51 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 
-train:  # train images 
-  - /usr/src/datasets/Cityscapes/images/train/aachen
-  - /usr/src/datasets/Cityscapes/images/train/bochum
-  - /usr/src/datasets/Cityscapes/images/train/bremen
-  - /usr/src/datasets/Cityscapes/images/train/cologne
-  - /usr/src/datasets/Cityscapes/images/train/darmstadt
-  - /usr/src/datasets/Cityscapes/images/train/dusseldorf
-  - /usr/src/datasets/Cityscapes/images/train/erfurt
-  - /usr/src/datasets/Cityscapes/images/train/hamburg
-  - /usr/src/datasets/Cityscapes/images/train/hanover
-  - /usr/src/datasets/Cityscapes/images/train/jena
-  - /usr/src/datasets/Cityscapes/images/train/krefeld
-  - /usr/src/datasets/Cityscapes/images/train/monchengladbach
-  - /usr/src/datasets/Cityscapes/images/train/strasbourg
-  - /usr/src/datasets/Cityscapes/images/train/stuttgart
-  - /usr/src/datasets/Cityscapes/images/train/tubingen
-  - /usr/src/datasets/Cityscapes/images/train/ulm
-  - /usr/src/datasets/Cityscapes/images/train/weimar
-  - /usr/src/datasets/Cityscapes/images/train/zurich
-val:  # val images 
-  - /usr/src/datasets/FoggyCityscapes/images/val/frankfurt
-  - /usr/src/datasets/FoggyCityscapes/images/val/lindau
-  - /usr/src/datasets/FoggyCityscapes/images/val/munster
+train: # train images
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/aachen
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/bochum
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/bremen
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/cologne
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/darmstadt
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/dusseldorf
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/erfurt
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/hamburg
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/hanover
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/jena
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/krefeld
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/monchengladbach
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/strasbourg
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/stuttgart
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/tubingen
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/ulm
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/weimar
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/cityscapes/images/train/zurich
+val: # val images
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/val/frankfurt
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/val/lindau
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/val/munster
 test:  # test images (optional)
-uda: 
-  - /usr/src/datasets/FoggyCityscapes/images/train/aachen
-  - /usr/src/datasets/FoggyCityscapes/images/train/bochum
-  - /usr/src/datasets/FoggyCityscapes/images/train/bremen
-  - /usr/src/datasets/FoggyCityscapes/images/train/cologne
-  - /usr/src/datasets/FoggyCityscapes/images/train/darmstadt
-  - /usr/src/datasets/FoggyCityscapes/images/train/dusseldorf
-  - /usr/src/datasets/FoggyCityscapes/images/train/erfurt
-  - /usr/src/datasets/FoggyCityscapes/images/train/hamburg
-  - /usr/src/datasets/FoggyCityscapes/images/train/hanover
-  - /usr/src/datasets/FoggyCityscapes/images/train/jena
-  - /usr/src/datasets/FoggyCityscapes/images/train/krefeld
-  - /usr/src/datasets/FoggyCityscapes/images/train/monchengladbach
-  - /usr/src/datasets/FoggyCityscapes/images/train/strasbourg
-  - /usr/src/datasets/FoggyCityscapes/images/train/stuttgart
-  - /usr/src/datasets/FoggyCityscapes/images/train/tubingen
-  - /usr/src/datasets/FoggyCityscapes/images/train/ulm
-  - /usr/src/datasets/FoggyCityscapes/images/train/weimar
-  - /usr/src/datasets/FoggyCityscapes/images/train/zurich
+uda:
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/aachen
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/bochum
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/bremen
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/cologne
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/darmstadt
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/dusseldorf
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/erfurt
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/hamburg
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/hanover
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/jena
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/krefeld
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/monchengladbach
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/strasbourg
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/stuttgart
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/tubingen
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/ulm
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/weimar
+  - /nfs/ofs-902-1/object-detection/jiangjing/datasets/foggycityscapes/images/train/zurich
 
 # Classes
 nc: 8 # number of classes
-names: ['person', 'car', 'train', 'rider', 'truck', 'motorcycle', 'bicycle', 'bus'] # class names
+names: [ 'person', 'car', 'train', 'rider', 'truck', 'motorcycle', 'bicycle', 'bus' ] # class names
 # Download script/URL (optional)
 download: 

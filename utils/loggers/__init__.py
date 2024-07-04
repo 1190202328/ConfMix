@@ -32,6 +32,9 @@ try:
 except (ImportError, AssertionError):
     wandb = None
 
+# TODO option, do not use wandb
+wandb = None
+
 
 class Loggers():
     # YOLOv5 Loggers class
